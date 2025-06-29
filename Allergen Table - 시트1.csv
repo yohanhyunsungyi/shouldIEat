@@ -1,0 +1,70 @@
+,,,,,
+,Simple Category,Sub Category,Allergen Item,Allergen Type,Risk Level
+,Seafood,Crustaceans,Crab,Ingestion,High
+,Seafood,Crustaceans,Lobster,Ingestion,High
+,Seafood,Crustaceans,Shrimp,Ingestion,High
+,Seafood,Fish,Anchovy,Ingestion,Medium
+,Seafood,Fish,Cod,Ingestion,High
+,Seafood,Fish,Mackerel,Ingestion,High
+,Seafood,Fish,Salmon,Ingestion,High
+,Seafood,Fish,Tuna,Ingestion,High
+,Seafood,Mollusks,Abalone,Ingestion,Medium
+,Seafood,Mollusks,Clam,Ingestion,Medium
+,Seafood,Mollusks,Mussel,Ingestion,Medium
+,Seafood,Mollusks,Oyster,Ingestion,Medium
+,Seafood,Mollusks,Snail,Ingestion,Medium
+,Seafood,Mollusks,Squid,Ingestion,Medium
+,Meat,Meat,Beef,Ingestion,Low
+,Meat,Meat,Chicken,Ingestion,Low
+,Meat,Meat,Lamb,Ingestion,Low
+,Meat,Meat,Pork,Ingestion,Low
+,Fruits,Fruits,Apple,Cross-reaction,Medium
+,Fruits,Fruits,Banana,Cross-reaction,Medium
+,Fruits,Fruits,Cherry,Cross-reaction,Medium
+,Fruits,Fruits,Kiwi,Cross-reaction,Medium
+,Fruits,Fruits,Peach,Cross-reaction,Medium
+,Fruits,Fruits,Persimmon,Ingestion,Low
+,Fruits,Fruits,Strawberry,Cross-reaction,Medium
+,Vegetables,Vegetables,Bracken,Ingestion,Low
+,Vegetables,Vegetables,Burdock,Ingestion,Low
+,Vegetables,Vegetables,Celery,Ingestion,Medium
+,Vegetables,Vegetables,Eggplant,Ingestion,Low
+,Vegetables,Vegetables,Lotus root,Ingestion,Low
+,Vegetables,Vegetables,Perilla leaf,Ingestion,Medium
+,Vegetables,Vegetables,Tomato,Ingestion,Low
+,Grains & Gluten,Cereal grains,Barley,Ingestion,Low
+,Grains & Gluten,Cereal grains,Buckwheat,Ingestion,Medium
+,Grains & Gluten,Cereal grains,Corn,Ingestion,Low
+,Grains & Gluten,Cereal grains,Oat,Ingestion,Low
+,Grains & Gluten,Cereal grains,Rice,Ingestion,Low
+,Grains & Gluten,Cereal grains,Rye,Ingestion,Low
+,Grains & Gluten,Cereal grains,Wheat,Ingestion,High
+,Grains & Gluten,Legumes,Lupin,Ingestion,Medium
+,Grains & Gluten,Peanuts,Peanut,Ingestion,High
+,Grains & Gluten,Seeds,Sesame,Ingestion,High
+,Grains & Gluten,Tree nuts,Almond,Ingestion,High
+,Grains & Gluten,Tree nuts,Brazil nut,Ingestion,High
+,Grains & Gluten,Tree nuts,Cashew,Ingestion,High
+,Grains & Gluten,Tree nuts,Hazelnut,Ingestion,High
+,Grains & Gluten,Tree nuts,Macadamia,Ingestion,High
+,Grains & Gluten,Tree nuts,Pecan,Ingestion,High
+,Grains & Gluten,Tree nuts,Pine nut,Ingestion,High
+,Grains & Gluten,Tree nuts,Pistachio,Ingestion,High
+,Grains & Gluten,Tree nuts,Walnut,Ingestion,High
+,Grains & Gluten,Soy,Soybean,Ingestion,High
+,Dairy Alternatives,Alternative Milk,Almond milk,Ingestion,Low
+,Dairy Alternatives,Alternative Milk,Coconut milk,Ingestion,Low
+,Dairy Alternatives,Alternative Milk,Oat milk,Ingestion,Low
+,Additives,Colorant,Carmine (cochineal),Ingestion,Medium
+,Additives,Gelling agent,Gelatin,Ingestion,Medium
+,Additives,Preservative,Sulfite,Ingestion,Medium
+,Additives,Sweetener,Stevia,Ingestion,Low
+,Spices/Herbs,Spices,Basil,Ingestion/Contact,Low
+,Spices/Herbs,Spices,Cinnamon,Ingestion/Contact,Low
+,Spices/Herbs,Spices,Coriander,Ingestion/Contact,Low
+,Spices/Herbs,Spices,Ginger,Ingestion/Contact,Low
+,Spices/Herbs,Spices,Mustard,Ingestion,Medium
+,Spices/Herbs,Spices,Rosemary,Ingestion/Contact,Low
+,Fermented food,Fermented food,Kimchi,Histamine,Low
+,Dairy,Dairy,Milk,Ingestion,High
+,Egg products,Egg products,Egg,Ingestion,High

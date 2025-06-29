@@ -1,0 +1,1443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		270440E92E11062800F6743A /* Startup.py in Resources */ = {isa = PBXBuildFile; fileRef = 270440E42E11062800F6743A /* Startup.py */; };
+		270440EA2E11062800F6743A /* PythonApplicationMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 270440E02E11062800F6743A /* PythonApplicationMain.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27043B6F2E11060400F6743A /* libffi.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = libffi.xcodeproj; sourceTree = "<group>"; };
+		27043B862E11060400F6743A /* Python3_ios.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Python3_ios.xcodeproj; sourceTree = "<group>"; };
+		270440DF2E11062800F6743A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		270440E02E11062800F6743A /* PythonApplicationMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PythonApplicationMain.m; sourceTree = "<group>"; };
+		270440E12E11062800F6743A /* PytoCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PytoCore.h; sourceTree = "<group>"; };
+		270440E22E11062800F6743A /* RoundedIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RoundedIcon.png; sourceTree = "<group>"; };
+		270440E32E11062800F6743A /* Splash Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Splash Screen.storyboard"; sourceTree = "<group>"; };
+		270440E42E11062800F6743A /* Startup.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = Startup.py; sourceTree = "<group>"; };
+		2704410B2E1108D700F6743A /* shouldIEat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "shouldIEat-Bridging-Header.h"; sourceTree = "<group>"; };
+		27CE1DE12E02763E00AA4AFC /* shouldIEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shouldIEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		270440FE2E11082700F6743A /* Exceptions for "shouldIEat" folder in "shouldIEat" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				"Food-Classifier-model/checkpoint_5.pth",
+				"Food-Classifier-model/checkpoint_8.pth",
+				"Food-Classifier-model/classes.txt",
+				"Food-Classifier-model/labels.txt",
+				"Food-Classifier-model/ms_calculator.py",
+				"Food-Classifier-model/readme.md",
+				README_CASCADE_SETUP.txt,
+			);
+			target = 27CE1DE02E02763E00AA4AFC /* shouldIEat */;
+		};
+		270440FF2E11082700F6743A /* Exceptions for "python3_ios" folder in "shouldIEat" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				.gitignore,
+				"Python-3.10/.azure-pipelines/ci.yml",
+				"Python-3.10/.azure-pipelines/docker-steps.yml",
+				"Python-3.10/.azure-pipelines/docs-steps.yml",
+				"Python-3.10/.azure-pipelines/macos-steps.yml",
+				"Python-3.10/.azure-pipelines/posix-deps.sh",
+				"Python-3.10/.azure-pipelines/posix-steps.yml",
+				"Python-3.10/.azure-pipelines/pr.yml",
+				"Python-3.10/.azure-pipelines/prebuild-checks.yml",
+				"Python-3.10/.azure-pipelines/windows-steps.yml",
+				"Python-3.10/Include/README.rst",
+				"Python-3.10/LICENSE",
+				Python3_ios/.gitignore,
+				"Python3_ios/libffi-3.4.2/acinclude.m4",
+				"Python3_ios/libffi-3.4.2/aclocal.m4",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/config.log",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/config.status",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/libffi.pc",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/libtool",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/.deps/closures.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/.deps/debug.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/.deps/java_raw_api.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/.deps/prep_cif.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/.deps/raw_api.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/.deps/tramp.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/.deps/types.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/aarch64/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/aarch64/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/aarch64/.deps/win64_armasm.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/alpha/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/alpha/.deps/osf.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/arc/.deps/arcompact.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/arc/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/arm/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/arm/.deps/sysv_msvc_arm32.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/arm/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/avr32/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/avr32/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/bfin/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/bfin/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/cris/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/cris/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/csky/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/csky/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/frv/.deps/eabi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/frv/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/ia64/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/ia64/.deps/unix.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/kvx/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/kvx/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/m32r/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/m32r/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/m68k/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/m68k/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/m88k/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/m88k/.deps/obsd.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/metag/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/metag/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/microblaze/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/microblaze/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/mips/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/mips/.deps/n32.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/mips/.deps/o32.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/moxie/.deps/eabi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/moxie/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/nios2/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/nios2/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/or1k/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/or1k/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/pa/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/pa/.deps/hpux32.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/pa/.deps/linux.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/powerpc/.deps/aix_closure.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/powerpc/.deps/aix.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/powerpc/.deps/darwin_closure.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/powerpc/.deps/darwin.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/powerpc/.deps/ffi_darwin.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/powerpc/.deps/ffi_linux64.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/powerpc/.deps/ffi_sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/powerpc/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/powerpc/.deps/linux64_closure.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/powerpc/.deps/linux64.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/powerpc/.deps/ppc_closure.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/powerpc/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/riscv/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/riscv/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/s390/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/s390/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/sh/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/sh/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/sh64/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/sh64/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/sparc/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/sparc/.deps/ffi64.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/sparc/.deps/v8.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/sparc/.deps/v9.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/tile/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/tile/.deps/tile.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/vax/.deps/elfbsd.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/vax/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/x86/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/x86/.deps/ffi64.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/x86/.deps/ffiw64.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/x86/.deps/sysv_intel.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/x86/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/x86/.deps/unix64.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/x86/.deps/win64_intel.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/x86/.deps/win64.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/xtensa/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/src/xtensa/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvos-arm64/stamp-h1",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/config.log",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/config.status",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/libffi.pc",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/libtool",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/.deps/closures.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/.deps/debug.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/.deps/java_raw_api.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/.deps/prep_cif.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/.deps/raw_api.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/.deps/tramp.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/.deps/types.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/aarch64/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/aarch64/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/aarch64/.deps/win64_armasm.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/alpha/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/alpha/.deps/osf.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/arc/.deps/arcompact.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/arc/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/arm/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/arm/.deps/sysv_msvc_arm32.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/arm/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/avr32/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/avr32/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/bfin/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/bfin/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/cris/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/cris/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/csky/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/csky/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/frv/.deps/eabi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/frv/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/ia64/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/ia64/.deps/unix.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/kvx/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/kvx/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/m32r/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/m32r/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/m68k/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/m68k/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/m88k/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/m88k/.deps/obsd.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/metag/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/metag/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/microblaze/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/microblaze/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/mips/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/mips/.deps/n32.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/mips/.deps/o32.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/moxie/.deps/eabi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/moxie/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/nios2/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/nios2/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/or1k/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/or1k/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/pa/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/pa/.deps/hpux32.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/pa/.deps/linux.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/powerpc/.deps/aix_closure.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/powerpc/.deps/aix.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/powerpc/.deps/darwin_closure.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/powerpc/.deps/darwin.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/powerpc/.deps/ffi_darwin.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/powerpc/.deps/ffi_linux64.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/powerpc/.deps/ffi_sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/powerpc/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/powerpc/.deps/linux64_closure.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/powerpc/.deps/linux64.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/powerpc/.deps/ppc_closure.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/powerpc/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/riscv/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/riscv/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/s390/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/s390/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/sh/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/sh/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/sh64/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/sh64/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/sparc/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/sparc/.deps/ffi64.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/sparc/.deps/v8.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/sparc/.deps/v9.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/tile/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/tile/.deps/tile.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/vax/.deps/elfbsd.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/vax/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/x86/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/x86/.deps/ffi64.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/x86/.deps/ffiw64.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/x86/.deps/sysv_intel.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/x86/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/x86/.deps/unix64.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/x86/.deps/win64_intel.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/x86/.deps/win64.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/xtensa/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/src/xtensa/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_appletvsimulator-x86_64/stamp-h1",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/config.log",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/config.status",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/libffi.pc",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/libtool",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/.deps/closures.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/.deps/debug.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/.deps/java_raw_api.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/.deps/prep_cif.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/.deps/raw_api.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/.deps/tramp.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/.deps/types.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/aarch64/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/aarch64/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/aarch64/.deps/win64_armasm.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/alpha/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/alpha/.deps/osf.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/arc/.deps/arcompact.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/arc/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/arm/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/arm/.deps/sysv_msvc_arm32.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/arm/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/avr32/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/avr32/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/bfin/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/bfin/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/cris/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/cris/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/csky/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/csky/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/frv/.deps/eabi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/frv/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/ia64/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/ia64/.deps/unix.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/kvx/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/kvx/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/m32r/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/m32r/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/m68k/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/m68k/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/m88k/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/m88k/.deps/obsd.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/metag/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/metag/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/microblaze/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/microblaze/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/mips/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/mips/.deps/n32.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/mips/.deps/o32.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/moxie/.deps/eabi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/moxie/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/nios2/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/nios2/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/or1k/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/or1k/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/pa/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/pa/.deps/hpux32.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/pa/.deps/linux.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/powerpc/.deps/aix_closure.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/powerpc/.deps/aix.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/powerpc/.deps/darwin_closure.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/powerpc/.deps/darwin.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/powerpc/.deps/ffi_darwin.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/powerpc/.deps/ffi_linux64.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/powerpc/.deps/ffi_sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/powerpc/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/powerpc/.deps/linux64_closure.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/powerpc/.deps/linux64.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/powerpc/.deps/ppc_closure.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/powerpc/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/riscv/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/riscv/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/s390/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/s390/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/sh/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/sh/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/sh64/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/sh64/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/sparc/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/sparc/.deps/ffi64.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/sparc/.deps/v8.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/sparc/.deps/v9.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/tile/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/tile/.deps/tile.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/vax/.deps/elfbsd.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/vax/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/x86/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/x86/.deps/ffi64.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/x86/.deps/ffiw64.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/x86/.deps/sysv_intel.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/x86/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/x86/.deps/unix64.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/x86/.deps/win64_intel.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/x86/.deps/win64.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/xtensa/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/src/xtensa/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-arm64/stamp-h1",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/config.log",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/config.status",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/libffi.pc",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/libtool",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/.deps/closures.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/.deps/debug.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/.deps/java_raw_api.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/.deps/prep_cif.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/.deps/raw_api.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/.deps/tramp.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/.deps/types.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/aarch64/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/aarch64/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/aarch64/.deps/win64_armasm.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/alpha/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/alpha/.deps/osf.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/arc/.deps/arcompact.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/arc/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/arm/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/arm/.deps/sysv_msvc_arm32.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/arm/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/avr32/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/avr32/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/bfin/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/bfin/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/cris/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/cris/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/csky/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/csky/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/frv/.deps/eabi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/frv/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/ia64/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/ia64/.deps/unix.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/kvx/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/kvx/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/m32r/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/m32r/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/m68k/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/m68k/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/m88k/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/m88k/.deps/obsd.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/metag/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/metag/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/microblaze/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/microblaze/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/mips/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/mips/.deps/n32.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/mips/.deps/o32.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/moxie/.deps/eabi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/moxie/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/nios2/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/nios2/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/or1k/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/or1k/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/pa/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/pa/.deps/hpux32.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/pa/.deps/linux.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/powerpc/.deps/aix_closure.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/powerpc/.deps/aix.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/powerpc/.deps/darwin_closure.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/powerpc/.deps/darwin.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/powerpc/.deps/ffi_darwin.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/powerpc/.deps/ffi_linux64.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/powerpc/.deps/ffi_sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/powerpc/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/powerpc/.deps/linux64_closure.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/powerpc/.deps/linux64.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/powerpc/.deps/ppc_closure.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/powerpc/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/riscv/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/riscv/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/s390/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/s390/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/sh/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/sh/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/sh64/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/sh64/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/sparc/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/sparc/.deps/ffi64.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/sparc/.deps/v8.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/sparc/.deps/v9.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/tile/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/tile/.deps/tile.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/vax/.deps/elfbsd.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/vax/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/x86/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/x86/.deps/ffi64.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/x86/.deps/ffiw64.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/x86/.deps/sysv_intel.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/x86/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/x86/.deps/unix64.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/x86/.deps/win64_intel.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/x86/.deps/win64.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/xtensa/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/src/xtensa/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphoneos-armv7/stamp-h1",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/config.log",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/config.status",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/libffi.pc",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/libtool",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/.deps/closures.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/.deps/debug.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/.deps/java_raw_api.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/.deps/prep_cif.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/.deps/raw_api.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/.deps/tramp.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/.deps/types.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/aarch64/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/aarch64/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/aarch64/.deps/win64_armasm.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/alpha/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/alpha/.deps/osf.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/arc/.deps/arcompact.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/arc/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/arm/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/arm/.deps/sysv_msvc_arm32.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/arm/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/avr32/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/avr32/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/bfin/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/bfin/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/cris/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/cris/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/csky/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/csky/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/frv/.deps/eabi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/frv/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/ia64/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/ia64/.deps/unix.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/kvx/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/kvx/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/m32r/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/m32r/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/m68k/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/m68k/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/m88k/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/m88k/.deps/obsd.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/metag/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/metag/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/microblaze/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/microblaze/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/mips/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/mips/.deps/n32.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/mips/.deps/o32.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/moxie/.deps/eabi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/moxie/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/nios2/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/nios2/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/or1k/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/or1k/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/pa/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/pa/.deps/hpux32.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/pa/.deps/linux.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/powerpc/.deps/aix_closure.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/powerpc/.deps/aix.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/powerpc/.deps/darwin_closure.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/powerpc/.deps/darwin.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/powerpc/.deps/ffi_darwin.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/powerpc/.deps/ffi_linux64.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/powerpc/.deps/ffi_sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/powerpc/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/powerpc/.deps/linux64_closure.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/powerpc/.deps/linux64.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/powerpc/.deps/ppc_closure.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/powerpc/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/riscv/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/riscv/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/s390/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/s390/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/sh/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/sh/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/sh64/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/sh64/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/sparc/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/sparc/.deps/ffi64.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/sparc/.deps/v8.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/sparc/.deps/v9.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/tile/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/tile/.deps/tile.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/vax/.deps/elfbsd.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/vax/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/x86/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/x86/.deps/ffi64.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/x86/.deps/ffiw64.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/x86/.deps/sysv_intel.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/x86/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/x86/.deps/unix64.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/x86/.deps/win64_intel.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/x86/.deps/win64.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/xtensa/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/src/xtensa/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-i386/stamp-h1",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/config.log",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/config.status",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/libffi.pc",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/libtool",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/.deps/closures.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/.deps/debug.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/.deps/java_raw_api.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/.deps/prep_cif.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/.deps/raw_api.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/.deps/tramp.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/.deps/types.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/aarch64/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/aarch64/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/aarch64/.deps/win64_armasm.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/alpha/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/alpha/.deps/osf.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/arc/.deps/arcompact.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/arc/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/arm/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/arm/.deps/sysv_msvc_arm32.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/arm/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/avr32/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/avr32/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/bfin/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/bfin/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/cris/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/cris/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/csky/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/csky/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/frv/.deps/eabi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/frv/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/ia64/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/ia64/.deps/unix.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/kvx/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/kvx/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/m32r/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/m32r/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/m68k/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/m68k/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/m88k/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/m88k/.deps/obsd.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/metag/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/metag/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/microblaze/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/microblaze/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/mips/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/mips/.deps/n32.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/mips/.deps/o32.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/moxie/.deps/eabi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/moxie/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/nios2/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/nios2/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/or1k/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/or1k/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/pa/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/pa/.deps/hpux32.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/pa/.deps/linux.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/powerpc/.deps/aix_closure.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/powerpc/.deps/aix.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/powerpc/.deps/darwin_closure.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/powerpc/.deps/darwin.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/powerpc/.deps/ffi_darwin.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/powerpc/.deps/ffi_linux64.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/powerpc/.deps/ffi_sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/powerpc/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/powerpc/.deps/linux64_closure.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/powerpc/.deps/linux64.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/powerpc/.deps/ppc_closure.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/powerpc/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/riscv/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/riscv/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/s390/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/s390/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/sh/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/sh/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/sh64/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/sh64/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/sparc/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/sparc/.deps/ffi64.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/sparc/.deps/v8.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/sparc/.deps/v9.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/tile/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/tile/.deps/tile.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/vax/.deps/elfbsd.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/vax/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/x86/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/x86/.deps/ffi64.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/x86/.deps/ffiw64.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/x86/.deps/sysv_intel.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/x86/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/x86/.deps/unix64.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/x86/.deps/win64_intel.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/x86/.deps/win64.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/xtensa/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/src/xtensa/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_iphonesimulator-x86_64/stamp-h1",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/config.log",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/config.status",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/libffi.pc",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/libtool",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/.deps/closures.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/.deps/debug.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/.deps/java_raw_api.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/.deps/prep_cif.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/.deps/raw_api.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/.deps/tramp.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/.deps/types.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/aarch64/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/aarch64/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/aarch64/.deps/win64_armasm.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/alpha/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/alpha/.deps/osf.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/arc/.deps/arcompact.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/arc/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/arm/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/arm/.deps/sysv_msvc_arm32.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/arm/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/avr32/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/avr32/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/bfin/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/bfin/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/cris/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/cris/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/csky/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/csky/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/frv/.deps/eabi.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/frv/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/ia64/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/ia64/.deps/unix.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/kvx/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/kvx/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/m32r/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/m32r/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/m68k/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/m68k/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/m88k/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/m88k/.deps/obsd.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/metag/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/metag/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/microblaze/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/microblaze/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/mips/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/mips/.deps/n32.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/mips/.deps/o32.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/moxie/.deps/eabi.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/moxie/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/nios2/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/nios2/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/or1k/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/or1k/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/pa/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/pa/.deps/hpux32.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/pa/.deps/linux.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/powerpc/.deps/aix_closure.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/powerpc/.deps/aix.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/powerpc/.deps/darwin_closure.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/powerpc/.deps/darwin.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/powerpc/.deps/ffi_darwin.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/powerpc/.deps/ffi_linux64.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/powerpc/.deps/ffi_sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/powerpc/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/powerpc/.deps/linux64_closure.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/powerpc/.deps/linux64.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/powerpc/.deps/ppc_closure.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/powerpc/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/riscv/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/riscv/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/s390/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/s390/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/sh/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/sh/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/sh64/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/sh64/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/sparc/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/sparc/.deps/ffi64.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/sparc/.deps/v8.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/sparc/.deps/v9.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/tile/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/tile/.deps/tile.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/vax/.deps/elfbsd.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/vax/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/x86/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/x86/.deps/ffi64.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/x86/.deps/ffiw64.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/x86/.deps/sysv_intel.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/x86/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/x86/.deps/unix64.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/x86/.deps/win64_intel.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/x86/.deps/win64.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/xtensa/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/src/xtensa/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_macosx-x86_64/stamp-h1",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/config.log",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/config.status",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/libffi.pc",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/libtool",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/.deps/closures.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/.deps/debug.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/.deps/java_raw_api.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/.deps/prep_cif.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/.deps/raw_api.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/.deps/tramp.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/.deps/types.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/aarch64/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/aarch64/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/aarch64/.deps/win64_armasm.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/alpha/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/alpha/.deps/osf.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/arc/.deps/arcompact.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/arc/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/arm/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/arm/.deps/sysv_msvc_arm32.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/arm/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/avr32/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/avr32/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/bfin/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/bfin/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/cris/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/cris/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/csky/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/csky/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/frv/.deps/eabi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/frv/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/ia64/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/ia64/.deps/unix.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/kvx/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/kvx/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/m32r/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/m32r/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/m68k/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/m68k/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/m88k/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/m88k/.deps/obsd.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/metag/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/metag/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/microblaze/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/microblaze/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/mips/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/mips/.deps/n32.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/mips/.deps/o32.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/moxie/.deps/eabi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/moxie/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/nios2/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/nios2/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/or1k/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/or1k/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/pa/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/pa/.deps/hpux32.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/pa/.deps/linux.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/powerpc/.deps/aix_closure.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/powerpc/.deps/aix.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/powerpc/.deps/darwin_closure.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/powerpc/.deps/darwin.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/powerpc/.deps/ffi_darwin.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/powerpc/.deps/ffi_linux64.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/powerpc/.deps/ffi_sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/powerpc/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/powerpc/.deps/linux64_closure.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/powerpc/.deps/linux64.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/powerpc/.deps/ppc_closure.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/powerpc/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/riscv/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/riscv/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/s390/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/s390/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/sh/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/sh/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/sh64/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/sh64/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/sparc/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/sparc/.deps/ffi64.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/sparc/.deps/v8.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/sparc/.deps/v9.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/tile/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/tile/.deps/tile.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/vax/.deps/elfbsd.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/vax/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/x86/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/x86/.deps/ffi64.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/x86/.deps/ffiw64.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/x86/.deps/sysv_intel.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/x86/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/x86/.deps/unix64.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/x86/.deps/win64_intel.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/x86/.deps/win64.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/xtensa/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/src/xtensa/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchos-armv7k/stamp-h1",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/config.log",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/config.status",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/libffi.pc",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/libtool",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/.deps/closures.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/.deps/debug.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/.deps/java_raw_api.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/.deps/prep_cif.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/.deps/raw_api.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/.deps/tramp.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/.deps/types.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/aarch64/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/aarch64/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/aarch64/.deps/win64_armasm.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/alpha/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/alpha/.deps/osf.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/arc/.deps/arcompact.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/arc/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/arm/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/arm/.deps/sysv_msvc_arm32.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/arm/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/avr32/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/avr32/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/bfin/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/bfin/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/cris/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/cris/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/csky/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/csky/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/frv/.deps/eabi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/frv/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/ia64/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/ia64/.deps/unix.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/kvx/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/kvx/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/m32r/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/m32r/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/m68k/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/m68k/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/m88k/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/m88k/.deps/obsd.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/metag/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/metag/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/microblaze/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/microblaze/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/mips/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/mips/.deps/n32.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/mips/.deps/o32.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/moxie/.deps/eabi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/moxie/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/nios2/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/nios2/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/or1k/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/or1k/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/pa/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/pa/.deps/hpux32.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/pa/.deps/linux.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/powerpc/.deps/aix_closure.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/powerpc/.deps/aix.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/powerpc/.deps/darwin_closure.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/powerpc/.deps/darwin.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/powerpc/.deps/ffi_darwin.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/powerpc/.deps/ffi_linux64.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/powerpc/.deps/ffi_sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/powerpc/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/powerpc/.deps/linux64_closure.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/powerpc/.deps/linux64.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/powerpc/.deps/ppc_closure.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/powerpc/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/riscv/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/riscv/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/s390/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/s390/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/sh/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/sh/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/sh64/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/sh64/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/sparc/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/sparc/.deps/ffi64.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/sparc/.deps/v8.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/sparc/.deps/v9.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/tile/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/tile/.deps/tile.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/vax/.deps/elfbsd.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/vax/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/x86/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/x86/.deps/ffi64.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/x86/.deps/ffiw64.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/x86/.deps/sysv_intel.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/x86/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/x86/.deps/unix64.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/x86/.deps/win64_intel.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/x86/.deps/win64.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/xtensa/.deps/ffi.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/src/xtensa/.deps/sysv.Plo",
+				"Python3_ios/libffi-3.4.2/build_watchsimulator-i386/stamp-h1",
+				"Python3_ios/libffi-3.4.2/ChangeLog",
+				"Python3_ios/libffi-3.4.2/ChangeLog.old",
+				"Python3_ios/libffi-3.4.2/compile",
+				"Python3_ios/libffi-3.4.2/config.guess",
+				"Python3_ios/libffi-3.4.2/config.sub",
+				"Python3_ios/libffi-3.4.2/configure",
+				"Python3_ios/libffi-3.4.2/configure.ac",
+				"Python3_ios/libffi-3.4.2/configure.host",
+				"Python3_ios/libffi-3.4.2/darwin_ios/src/x86/ffi_i386.c",
+				"Python3_ios/libffi-3.4.2/darwin_ios/src/x86/ffi64_x86_64.c",
+				"Python3_ios/libffi-3.4.2/darwin_ios/src/x86/ffiw64_x86_64.c",
+				"Python3_ios/libffi-3.4.2/darwin_ios/src/x86/sysv_i386.S",
+				"Python3_ios/libffi-3.4.2/darwin_ios/src/x86/unix64_x86_64.S",
+				"Python3_ios/libffi-3.4.2/darwin_ios/src/x86/win64_x86_64.S",
+				"Python3_ios/libffi-3.4.2/darwin_osx/src/x86/ffi64_x86_64.c",
+				"Python3_ios/libffi-3.4.2/darwin_osx/src/x86/ffiw64_x86_64.c",
+				"Python3_ios/libffi-3.4.2/darwin_osx/src/x86/unix64_x86_64.S",
+				"Python3_ios/libffi-3.4.2/darwin_osx/src/x86/win64_x86_64.S",
+				"Python3_ios/libffi-3.4.2/darwin_tvos/src/x86/ffi64_x86_64.c",
+				"Python3_ios/libffi-3.4.2/darwin_tvos/src/x86/ffiw64_x86_64.c",
+				"Python3_ios/libffi-3.4.2/darwin_tvos/src/x86/unix64_x86_64.S",
+				"Python3_ios/libffi-3.4.2/darwin_tvos/src/x86/win64_x86_64.S",
+				"Python3_ios/libffi-3.4.2/darwin_watchos/src/x86/ffi_i386.c",
+				"Python3_ios/libffi-3.4.2/darwin_watchos/src/x86/sysv_i386.S",
+				"Python3_ios/libffi-3.4.2/depcomp",
+				"Python3_ios/libffi-3.4.2/doc/libffi.info",
+				"Python3_ios/libffi-3.4.2/doc/libffi.pdf",
+				"Python3_ios/libffi-3.4.2/doc/libffi.texi",
+				"Python3_ios/libffi-3.4.2/doc/Makefile.am",
+				"Python3_ios/libffi-3.4.2/doc/Makefile.in",
+				"Python3_ios/libffi-3.4.2/doc/mdate-sh",
+				"Python3_ios/libffi-3.4.2/doc/stamp-vti",
+				"Python3_ios/libffi-3.4.2/doc/texinfo.tex",
+				"Python3_ios/libffi-3.4.2/doc/version.texi",
+				"Python3_ios/libffi-3.4.2/fficonfig.h.in",
+				"Python3_ios/libffi-3.4.2/include/ffi.h.in",
+				"Python3_ios/libffi-3.4.2/include/Makefile.am",
+				"Python3_ios/libffi-3.4.2/include/Makefile.in",
+				"Python3_ios/libffi-3.4.2/install-sh",
+				"Python3_ios/libffi-3.4.2/libffi.map.in",
+				"Python3_ios/libffi-3.4.2/libffi.pc.in",
+				"Python3_ios/libffi-3.4.2/libtool-ldflags",
+				"Python3_ios/libffi-3.4.2/libtool-version",
+				"Python3_ios/libffi-3.4.2/LICENSE",
+				"Python3_ios/libffi-3.4.2/LICENSE-BUILDTOOLS",
+				"Python3_ios/libffi-3.4.2/ltmain.sh",
+				"Python3_ios/libffi-3.4.2/m4/asmcfi.m4",
+				"Python3_ios/libffi-3.4.2/m4/ax_append_flag.m4",
+				"Python3_ios/libffi-3.4.2/m4/ax_cc_maxopt.m4",
+				"Python3_ios/libffi-3.4.2/m4/ax_cflags_warn_all.m4",
+				"Python3_ios/libffi-3.4.2/m4/ax_check_compile_flag.m4",
+				"Python3_ios/libffi-3.4.2/m4/ax_compiler_vendor.m4",
+				"Python3_ios/libffi-3.4.2/m4/ax_configure_args.m4",
+				"Python3_ios/libffi-3.4.2/m4/ax_enable_builddir.m4",
+				"Python3_ios/libffi-3.4.2/m4/ax_gcc_archflag.m4",
+				"Python3_ios/libffi-3.4.2/m4/ax_gcc_x86_cpuid.m4",
+				"Python3_ios/libffi-3.4.2/m4/ax_require_defined.m4",
+				"Python3_ios/libffi-3.4.2/m4/libtool.m4",
+				"Python3_ios/libffi-3.4.2/m4/lt~obsolete.m4",
+				"Python3_ios/libffi-3.4.2/m4/ltoptions.m4",
+				"Python3_ios/libffi-3.4.2/m4/ltsugar.m4",
+				"Python3_ios/libffi-3.4.2/m4/ltversion.m4",
+				"Python3_ios/libffi-3.4.2/make_sunver.pl",
+				"Python3_ios/libffi-3.4.2/Makefile.am",
+				"Python3_ios/libffi-3.4.2/Makefile.in",
+				"Python3_ios/libffi-3.4.2/man/ffi_call.3",
+				"Python3_ios/libffi-3.4.2/man/ffi_prep_cif_var.3",
+				"Python3_ios/libffi-3.4.2/man/ffi_prep_cif.3",
+				"Python3_ios/libffi-3.4.2/man/ffi.3",
+				"Python3_ios/libffi-3.4.2/man/Makefile.am",
+				"Python3_ios/libffi-3.4.2/man/Makefile.in",
+				"Python3_ios/libffi-3.4.2/missing",
+				"Python3_ios/libffi-3.4.2/msvc_build/aarch64/Ffi_staticLib.sln",
+				"Python3_ios/libffi-3.4.2/msvc_build/aarch64/Ffi_staticLib.vcxproj",
+				"Python3_ios/libffi-3.4.2/msvc_build/aarch64/Ffi_staticLib.vcxproj.filters",
+				"Python3_ios/libffi-3.4.2/msvc_build/aarch64/Ffi_staticLib.vcxproj.user",
+				"Python3_ios/libffi-3.4.2/msvcc.sh",
+				"Python3_ios/libffi-3.4.2/README.md",
+				"Python3_ios/libffi-3.4.2/src/aarch64/win64_armasm.S",
+				"Python3_ios/libffi-3.4.2/src/ia64/unix.S",
+				"Python3_ios/libffi-3.4.2/src/x86/unix64.S",
+				"Python3_ios/libffi-3.4.2/src/x86/win64_intel.S",
+				"Python3_ios/libffi-3.4.2/src/x86/win64.S",
+				"Python3_ios/libffi-3.4.2/testsuite/lib/libffi.exp",
+				"Python3_ios/libffi-3.4.2/testsuite/libffi.bhaible/bhaible.exp",
+				"Python3_ios/libffi-3.4.2/testsuite/libffi.bhaible/README",
+				"Python3_ios/libffi-3.4.2/testsuite/libffi.bhaible/test-call.c",
+				"Python3_ios/libffi-3.4.2/testsuite/libffi.bhaible/test-callback.c",
+				"Python3_ios/libffi-3.4.2/testsuite/libffi.bhaible/testcases.c",
+				"Python3_ios/libffi-3.4.2/testsuite/libffi.closures/testclosure.c",
+				"Python3_ios/libffi-3.4.2/testsuite/libffi.closures/unwindtest_ffi_call.cc",
+				"Python3_ios/libffi-3.4.2/testsuite/libffi.closures/unwindtest.cc",
+				"Python3_ios/libffi-3.4.2/testsuite/Makefile.am",
+				"Python3_ios/libffi-3.4.2/testsuite/Makefile.in",
+				Python3_ios/libpython.so,
+				"Python3_ios/python3_ios copy-Info.plist",
+				"Python3_ios/python3_ios copy2-Info.plist",
+				Python3_ios/Python3_ios/Info.plist,
+				Python3_ios/README_BEFORE_UPDATING.md,
+			);
+			target = 27CE1DE02E02763E00AA4AFC /* shouldIEat */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		27043B8D2E11060400F6743A /* python3_ios */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				270440FF2E11082700F6743A /* Exceptions for "python3_ios" folder in "shouldIEat" target */,
+			);
+			path = python3_ios;
+			sourceTree = "<group>";
+		};
+		27CE1DE32E02763E00AA4AFC /* shouldIEat */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				270440FE2E11082700F6743A /* Exceptions for "shouldIEat" folder in "shouldIEat" target */,
+			);
+			path = shouldIEat;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27CE1DDE2E02763E00AA4AFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		270440C92E11060600F6743A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		270440CB2E11060600F6743A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		270440E52E11062800F6743A /* PytoCore */ = {
+			isa = PBXGroup;
+			children = (
+				270440DF2E11062800F6743A /* Info.plist */,
+				270440E02E11062800F6743A /* PythonApplicationMain.m */,
+				270440E12E11062800F6743A /* PytoCore.h */,
+				270440E22E11062800F6743A /* RoundedIcon.png */,
+				270440E32E11062800F6743A /* Splash Screen.storyboard */,
+				270440E42E11062800F6743A /* Startup.py */,
+			);
+			path = PytoCore;
+			sourceTree = "<group>";
+		};
+		27CE1DD82E02763E00AA4AFC = {
+			isa = PBXGroup;
+			children = (
+				27CE1DE32E02763E00AA4AFC /* shouldIEat */,
+				27CE1DE22E02763E00AA4AFC /* Products */,
+				27043B8D2E11060400F6743A /* python3_ios */,
+				270440E52E11062800F6743A /* PytoCore */,
+				2704410B2E1108D700F6743A /* shouldIEat-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		27CE1DE22E02763E00AA4AFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27CE1DE12E02763E00AA4AFC /* shouldIEat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27CE1DE02E02763E00AA4AFC /* shouldIEat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27CE1DEC2E02763F00AA4AFC /* Build configuration list for PBXNativeTarget "shouldIEat" */;
+			buildPhases = (
+				27CE1DDD2E02763E00AA4AFC /* Sources */,
+				27CE1DDE2E02763E00AA4AFC /* Frameworks */,
+				27CE1DDF2E02763E00AA4AFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				27043B8D2E11060400F6743A /* python3_ios */,
+				27CE1DE32E02763E00AA4AFC /* shouldIEat */,
+			);
+			name = shouldIEat;
+			packageProductDependencies = (
+			);
+			productName = shouldIEat;
+			productReference = 27CE1DE12E02763E00AA4AFC /* shouldIEat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27CE1DD92E02763E00AA4AFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					27CE1DE02E02763E00AA4AFC = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 27CE1DDC2E02763E00AA4AFC /* Build configuration list for PBXProject "shouldIEat" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+				es,
+				fr,
+			);
+			mainGroup = 27CE1DD82E02763E00AA4AFC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 27CE1DE22E02763E00AA4AFC /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 270440CB2E11060600F6743A /* Products */;
+					ProjectRef = 27043B6F2E11060400F6743A /* libffi.xcodeproj */;
+				},
+				{
+					ProductGroup = 270440C92E11060600F6743A /* Products */;
+					ProjectRef = 27043B862E11060400F6743A /* Python3_ios.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				27CE1DE02E02763E00AA4AFC /* shouldIEat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27CE1DDF2E02763E00AA4AFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				270440E92E11062800F6743A /* Startup.py in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27CE1DDD2E02763E00AA4AFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				270440EA2E11062800F6743A /* PythonApplicationMain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		27CE1DEA2E02763F00AA4AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3FX78D9U2N;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27CE1DEB2E02763F00AA4AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3FX78D9U2N;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27CE1DED2E02763F00AA4AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3FX78D9U2N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/python3_ios/Python-3.10/Include",
+					"$(PROJECT_DIR)/PytoCore/include",
+					"$(PROJECT_DIR)/python3_ios/Python3_ios/libffi-3.4.2/include",
+					"$(PROJECT_DIR)/python3_ios/libffi",
+					"$(PROJECT_DIR)/python3_ios/Python3_ios/libffi-3.4.2/src",
+				);
+				INFOPLIST_KEY_CFBundleDisplayName = "Should I Eat?";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Should I Eat?” Would Like to Access the Camera. This lets you take photos to scan menu or dish.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/python3_ios/Python3_ios",
+					"$(PROJECT_DIR)/shouldIEat/python3_ios/Python3_ios",
+					"$(PROJECT_DIR)/shouldIEat/Pyto-main/Extensions/Dependencies/tools",
+					"$(PROJECT_DIR)/shouldIEat/Pyto-main/python3_ios/Python3_ios",
+					"$(PROJECT_DIR)/shouldIEat/Pyto-main/Extensions",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shouldIEat.shouldIEat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "shouldIEat-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		27CE1DEE2E02763F00AA4AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3FX78D9U2N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/python3_ios/Python-3.10/Include",
+					"$(PROJECT_DIR)/PytoCore/include",
+					"$(PROJECT_DIR)/python3_ios/Python3_ios/libffi-3.4.2/include",
+					"$(PROJECT_DIR)/python3_ios/libffi",
+					"$(PROJECT_DIR)/python3_ios/Python3_ios/libffi-3.4.2/src",
+				);
+				INFOPLIST_KEY_CFBundleDisplayName = "Should I Eat?";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Should I Eat?” Would Like to Access the Camera. This lets you take photos to scan menu or dish.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/python3_ios/Python3_ios",
+					"$(PROJECT_DIR)/shouldIEat/python3_ios/Python3_ios",
+					"$(PROJECT_DIR)/shouldIEat/Pyto-main/Extensions/Dependencies/tools",
+					"$(PROJECT_DIR)/shouldIEat/Pyto-main/python3_ios/Python3_ios",
+					"$(PROJECT_DIR)/shouldIEat/Pyto-main/Extensions",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shouldIEat.shouldIEat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "shouldIEat-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27CE1DDC2E02763E00AA4AFC /* Build configuration list for PBXProject "shouldIEat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27CE1DEA2E02763F00AA4AFC /* Debug */,
+				27CE1DEB2E02763F00AA4AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27CE1DEC2E02763F00AA4AFC /* Build configuration list for PBXNativeTarget "shouldIEat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27CE1DED2E02763F00AA4AFC /* Debug */,
+				27CE1DEE2E02763F00AA4AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27CE1DD92E02763E00AA4AFC /* Project object */;
+}
